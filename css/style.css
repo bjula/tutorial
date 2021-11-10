@@ -1,3 +1,24 @@
+/* Устанавливаем блочную модель border-box. Используя универсальный селектор *, 
+значение border-box устанавливается для всех элементов и псевдоэлементов документа.*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* образец подключения normalize 
+<head>
+  <!-- Сначала нормализатор -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
+  <!-- Потом ваши стили -->
+  <link rel="stylesheet" href="ссылка на ваш файл стилей" />
+</head>
+*/
 
 /* Using a sans serif font and increasing the size of the characters */
 body {
